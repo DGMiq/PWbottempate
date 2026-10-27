@@ -1,0 +1,17 @@
+{
+  "name": "pw-page-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright-бот: открывает страницу и собирает о ней информацию",
+  "scripts": {
+    "start": "node src/bot.js",
+    "install-browser": "playwright install chromium"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
